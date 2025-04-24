@@ -11,6 +11,7 @@ CONF_ZONES = "device_zones"
 CONF_ZONE_SETUP = "zone_setup"
 CONF_ZONE_NAME = "zone_name"
 
+""" First item is the displayed name in HA. Second is real entity for the Denon Receiver.  IE: 'My Input': 'DVD' """
 RECEIVER_INPUTS = {'CD': 'CD', 'DVD': 'DVD', 'TV': 'TV', 'Video Aux': 'V.AUX', 'DBS':'DBS/SAT',
                  'Phono': 'PHONO', 'Tuner': 'TUNER', 'VDP': 'VDP', 'VCR-1': 'VCR-1', 'VCR-2': 'VCR-2',
                  'CDR/Tape': 'CDR/TAPE1'}
